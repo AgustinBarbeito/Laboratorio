@@ -3,8 +3,8 @@ package Hotel;
 public class Huesped {
     private String nombre;
     private String apellido;
-    private Fecha Entrada;
-    private Fecha Salida;
+    private Fecha Entrada = new Fecha();
+    private Fecha Salida = new Fecha();
     private int edad;
     private int dni;
     private Habitacion habitacion;
